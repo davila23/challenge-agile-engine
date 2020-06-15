@@ -39,18 +39,25 @@ URL: http://localhost:3000/
 
 
 <p align="center">
-  <img src="https://miro.medium.com/max/1400/1*r-UR2jA0fkNqU8OyC1g-cQ.png" width="600" alt="Logo" />
+<img width="600" alt="Captura de Pantalla 2020-06-15 a la(s) 18 20 50" src="https://user-images.githubusercontent.com/50145471/84709923-85bd6500-af39-11ea-86f4-497367008b4b.png">
 </p>
 
 
 ## Postman 
 
-
 <p align="center">
-  <img src="https://miro.medium.com/max/1400/1*UYEGsbo99M8jlx4DWZgqng.png" width="600" alt="Logo" />
+<img width="600" alt="Captura de Pantalla 2020-06-15 a la(s) 18 21 20" src="https://user-images.githubusercontent.com/50145471/84709921-8524ce80-af39-11ea-9430-ce460933000a.png">
 </p>
 
-Errors handled:
+<p align="center">
+<img width="600" alt="Captura de Pantalla 2020-06-15 a la(s) 18 21 40" src="https://user-images.githubusercontent.com/50145471/84709920-848c3800-af39-11ea-9280-5790e086e151.png">
+</p>
+
+<p align="center">
+<img width="600" alt="Captura de Pantalla 2020-06-15 a la(s) 18 23 10" src="https://user-images.githubusercontent.com/50145471/84709916-835b0b00-af39-11ea-9f37-28465b69a302.png">
+</p>
+
+## Errors handled 
 
  WITOUT_FOUNDS = 'ERROR => WITOUT FOUND'
 
