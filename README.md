@@ -5,6 +5,7 @@ In order to be able to test the database lock request, I added a 3 second delay 
 
 The GET method does not have any kind of limitation.
 
+Requirements : https://agileengine.bitbucket.io/fsNDJmGOAwqCpzZx/
 
 
 ## Dependency Table
