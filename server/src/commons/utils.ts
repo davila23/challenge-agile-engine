@@ -1,0 +1,9 @@
+// Server Port
+export const PORT = 5000
+
+// Error Msj
+export const WITOUT_FOUNDS = 'ERROR => WITOUT FOUND'
+export const ID_NOT_FOUND = 'ERROR => ID DOES NOT EXIST'
+export const AMOUNT_NEGATIVE = 'ERROR => THE AMOUNT CANNOT BE NEGATIVE'
+export const LOCK_DB = 'ERROR => WE ARE PROCESING YOU REQUEST , PLEASE TRY AGAIN LATER.'
+export const WRONG_TYPE = 'ERROR => ORNG TYPE OPERATION'

@@ -1,0 +1,30 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "Challenge",
+  "author": {
+    "name": "Daniel Avila",
+    "email": "daniel.avila@rottay.com",
+    "url": "https://www.linkedin.com/in/avila-daniel/"
+  },
+  "main": "cd server/app.js",
+  "scripts": {
+    "postinstall": "concurrently  \"cd client && yarn install\" \"cd server && yarn install\"",
+    "client": "cd client && yarn start",
+    "server": "cd server && yarn start",
+    "dev": "concurrently --kill-others \"cd server && yarn dev\" \"cd client && yarn start\"",
+    "build": "cd client; yarn build; cd ..; rm -r server/build; mv -f client/build server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davila23/javascript-forecast.git"
+  },
+  "keywords": [
+    "challenge",
+    "davila23"
+  ],
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^1.18.3"
+  }
+}

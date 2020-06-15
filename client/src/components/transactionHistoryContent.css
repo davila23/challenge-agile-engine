@@ -1,0 +1,132 @@
+.TransactionHistoryContent {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.TransactionHistoryContent h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.TransactionHistoryContent .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.TransactionHistoryContent .header .header-right,
+.TransactionHistoryContent .header .header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TransactionHistoryContent .header svg {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-right: 10px;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.transaction.title {
+  border-radius: 0;
+  border-bottom: 1px solid #575e6c;
+}
+.background-red {
+  background-color: rgb(116, 8, 8);
+}
+.background-green {
+  background-color: rgb(35, 110, 13);
+}
+
+.transaction.even {
+  background-color: #59606f;
+}
+
+.transaction .transaction-amnt.debit {
+  color: #cb4f6a;
+}
+
+.transaction .transaction-amnt.credit {
+  color: #9ec77c;
+}
+
+.transaction .transaction-date,
+.transaction .transaction-date-title {
+  width: 20%;
+  text-align: center;
+
+}
+
+.transaction .transaction-id,
+.transaction .transaction-id-title {
+  width: 30%;
+  text-align: left;
+}
+
+.transaction .transaction-details,
+.transaction .transaction-details-title {
+  width: 15%;
+  text-align: left;
+}
+
+
+.transaction .transaction-amnt,
+.transaction .transaction-amnt-title {
+  width: 15%;
+  text-align: left;
+}
+
+.next-btn,
+.prev-btn {
+  width: 80px;
+  height: 40px;
+  border: 1px solid #575e6c;
+  border-radius: 7px;
+  background: none;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 30px;
+  user-select: none;
+}
+
+.next-btn:hover,
+.prev-btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.next-btn.disabled,
+.prev-btn.disabled {
+  cursor: not-allowed;
+}
+
+.search-box {
+  height: 35px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #dbe2e8;
+  font-size: 14px;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  color: #2e3d49;
+  width: 220px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.2);
+  margin-right: 25px;
+}
